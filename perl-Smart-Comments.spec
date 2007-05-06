@@ -1,7 +1,7 @@
 %define module	Smart-Comments
 %define name	perl-%{module}
 %define version 1.0.2
-%define	release	%mkrel 1
+%define	release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -28,6 +28,8 @@ and verify that particular assertions are true.
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
+
+%check
 %{__make} test
 
 %install
