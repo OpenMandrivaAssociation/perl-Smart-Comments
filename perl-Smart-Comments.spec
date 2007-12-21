@@ -12,6 +12,7 @@ Group:		Development/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Smart/%{module}-v%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl
 BuildRequires:	perl-devel
 BuildRequires:	perl-version
