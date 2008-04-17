@@ -9,13 +9,11 @@ Release:	%{release}
 Summary:	Comments that do more than just sit there
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Smart/%{module}-v%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
-BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	perl
-BuildRequires:	perl-devel
+Source:     http://search.cpan.org/CPAN/authors/id/D/DC/DCONWAY/%{module}-v%{version}.tar.gz
 BuildRequires:	perl-version
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Smart comments provide an easy way to insert debugging and tracking code into a
