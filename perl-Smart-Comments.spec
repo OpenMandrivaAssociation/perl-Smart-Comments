@@ -1,15 +1,15 @@
 %define upstream_name	 Smart-Comments
-%define upstream_version 1.0.4
+%define upstream_version 1.000005
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.000005
+Release:	1
 
 Summary:	Comments that do more than just sit there
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCONWAY/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/D/DC/DCONWAY/Smart-Comments-1.000005.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(version)
@@ -73,4 +73,5 @@ make test
 
 * Thu Oct 06 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 1.0.1-1mdk
 - Initial MDV release.
+
 
