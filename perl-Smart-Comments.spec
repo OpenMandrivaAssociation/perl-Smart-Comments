@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.000005
-Release:	2
+Release:	3
 
 Summary:	Comments that do more than just sit there
 License:	GPL+ or Artistic
