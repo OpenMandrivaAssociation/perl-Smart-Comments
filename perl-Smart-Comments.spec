@@ -8,7 +8,7 @@ Release:	3
 Summary:	Comments that do more than just sit there
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/authors/id/D/DC/DCONWAY/Smart-Comments-1.000005.tar.gz
 
 BuildRequires:	perl-devel
