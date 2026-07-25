@@ -1,15 +1,15 @@
 %define upstream_name	 Smart-Comments
-%define upstream_version 1.000005
+%define upstream_version 1.06
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.000005
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Comments that do more than just sit there
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/authors/id/D/DC/DCONWAY/Smart-Comments-1.000005.tar.gz
+Url:		https://github.com/neilb/Smart-Comments
+Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Smart-Comments-1.06.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
