@@ -1,9 +1,7 @@
 %define upstream_name	 Smart-Comments
-%define upstream_version 1.06
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.06
+Release:	2
 
 Summary:	Comments that do more than just sit there
 License:	GPL+ or Artistic
@@ -23,7 +21,7 @@ program. They can report the value of a variable, track the progress of a loop,
 and verify that particular assertions are true.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
